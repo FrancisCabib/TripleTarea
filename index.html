@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/cs/style.cs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesafioTriple</title>
+    <link rel="stylesheet" href="./assets/cs/style.css">
+</head>
+<body>
+    <!-- Ejercicio 1: Imagen -->
+    <img class="seccionuno" src="./assets/img/hyedragon.jpg" alt="">
+
+    <!-- Ejercicio 2: Stickers -->
+    <div class="secciondos">
+        <div class="contenedorCards">
+            <!-- Sticker 1 -->
+            <div class="card">
+                <img src="./assets/img/garchomp.png" alt="">
+                <input id="valorUno" type="number" min="0" max="10" placeholder="selecciona una cantidad">
+            </div>
+            <!-- Sticker 2 -->
+            <div class="card">
+                <img src="./assets/img/kyurem.png" alt="">
+                <input id="valorDos" type="number" min="0" max="10" placeholder="selecciona una cantidad">
+            </div>
+            <!-- Sticker 3 -->
+            <div class="card">
+                <img src="./assets/img/nidoking.png" alt="">
+                <input id="valorTres" type="number" min="0" max="10" placeholder="selecciona una cantidad">
+            </div>
+        </div>
+        <button type="button" class="botonVerificar">Verificar</button>
+        <p class="cantidadStickers"></p>
+    </div>
+
+    <!-- Ejercicio 3: Password -->
+    <div class="secciontres">
+        <h1>Ingresa el password</h1>
+        <div class="contenedorSelectores">
+            <select class="primerNumero" name="primerNumero">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select class="segundoNumero" name="segundoNumero">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select class="tercerNumero" name="tercerNumero">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <button class="buttonIngresar">Ingresar</button>
+        <p class="respuestaPassword"></p>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    min-height: 100vh;
+}
+
+.seccionuno {
+max-width: 100%;
+    cursor: pointer;
+}
+
+img.seccionuno {
+    width: 40%;
+    cursor: pointer;
+}
+
+
+.secciondos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contenedorCards {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.secciondos img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.botonVerificar {
+    width: 6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.botonVerificar:hover {
+    transform: scale(1.2);
+}
+
+input {
+    width: 11rem;
+}
+
+.secciontres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.secciontres button {
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 6rem;
+    transition: 0.1s;
+}
+
+.secciontres button:hover {
+    transform: scale(1.2);
+}
+
+/* Estilo para separación entre secciones */
+.seccionuno,
+.secciondos,
+.secciontres {
+    border-bottom: 2px solid black;
+    width: 100%; 
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.secciontres {
+    border-bottom: none;
+}
